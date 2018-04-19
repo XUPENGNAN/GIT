@@ -49,7 +49,7 @@
 1.1 git init        # 在当前目录新建一个Git代码库
 1.2 git add a.txt   # 提交指定文件  / git add . # 把该目录下的文件都提交
 1.3 git commit -m '第一次提交'
-1.3 在Github上设置好SSH密钥后，新建一个远程仓库，通过git remote add origin https://github.com/guyibang/TEST2.git                  将本地仓库和远程仓库进行关联
+1.3 在Github上设置好SSH密钥后，新建一个远程仓库，通过git remote add origin https://github.com/XUPENGNAN/GIT.git  将本地仓库和远程仓库进行关联
 1.4 git push -u origin master   #提交到远程仓库
 
 2. 设置本地的ssh key密匙
@@ -71,9 +71,9 @@
 2. 保存代码的仓库 ---> settings ----> collaborator ----> 填写邀请者的 github 账号 -----> 进行邀请
 ------> 受邀者会在邮箱里收到邀请信息接受邀请 ----->leader可以看到同意的受邀者
 3. 受邀者同样需要在本地创建密匙，与自己的 github 绑定 。
-4. 受邀者将本地仓库和远程仓库进行关联，git remote add origin https://github.com/guyibang/TEST2.git        
-5. 然后受邀者将代码克隆下来，git clone https://github.com/guyibang/TEST2.git 
-6. 或者受邀者使用 git pull https://github.com/guyibang/TEST2.git 将代码复制下来
+4. 受邀者将本地仓库和远程仓库进行关联，git remote add origin https://github.com/XUPENGNAN/GIT.git       
+5. 然后受邀者将代码克隆下来，git clone https://github.com/XUPENGNAN/GIT.git
+6. 或者受邀者使用 git pull https://github.com/XUPENGNAN/GIT.git 将代码复制下来
 7. 多人同时操作一个文件时遇到冲突需要先进行，git pull , 然后再git push
 
 ##### git 创建本地分支
