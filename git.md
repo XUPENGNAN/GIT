@@ -25,8 +25,8 @@
  　git config --global user.email "zhangguo@qq.com"
 
 6. 非全局配置：
-   git config user.name "zhangguo"
-   git config user.email "zhangguo@qq.com"
+   git config user.name "XXXXXXX"
+   git config user.email "XXXXXXXX@qq.com"
                 
 7. 删除配置项:
   git config [--local || --global || --system] --unset section.key
