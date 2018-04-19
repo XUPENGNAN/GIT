@@ -21,8 +21,8 @@
 3. git config --global  --list ：查看当前用户（global全局）配置
 4. git config --local  --list ： 查看当前仓库配置信息
 5. 提交之前的配置标识，标识是谁提交的
-   git config --global user.name "zhangguo"
- 　git config --global user.email "zhangguo@qq.com"
+   git config --global user.name "xxxxxxx"
+ 　git config --global user.email "xxxxxxx@qq.com"
 
 6. 非全局配置：
    git config user.name "XXXXXXX"
