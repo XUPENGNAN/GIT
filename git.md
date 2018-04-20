@@ -1,36 +1,40 @@
 ##### Bash文件夹基本操作
-1. cd : 改变目录
-2. cd . .  : 回退到上一个目录，直接cd进入默认目录
-3. pwd : 显示当前所在的目录路径
-4. ls(ll): 都是列出当前目录中的所有文件，只不过ll(两个ll)列出的内容更为详细
-5. touch : 新建一个文件
-6. rm : 删除一个文件, rm index.js 就会把index.js文件删除
-7. mkdir :新建一个文件夹
-8. rm -r : 删除一个文件夹, rm -r src 删除src目录
-9. mv : 移动文件 mv index.html src index.html 是我们要移动的文件, src 是目标文件夹,当然, 这样写,必须保证文件和目标文件夹在同一目录下
-10. reset : 重新初始化终端/清屏
-11. clear : 清屏
-12. history : 查看命令历史
-13. help : 帮助
-14. exit : 退出
-15. '#' : 注释
+##### 1. cd : 改变目录
+##### 2. cd . .  : 回退到上一个目录，直接cd进入默认目录
+##### 3. pwd : 显示当前所在的目录路径
+##### 4. ls(ll): 都是列出当前目录中的所有文件，只不过ll(两个ll)列出的内容更为详细
+##### 5. touch : 新建一个文件
+##### 6. rm : 删除一个文件, rm index.js 就会把index.js文件删除
+##### 7. mkdir :新建一个文件夹
+##### 8. rm -r : 删除一个文件夹, rm -r src 删除src目录
+##### 9. mv : 移动文件 mv index.html src index.html 是我们要移动的文件, src 是目标文件夹,当然, 这样写,必须保证文件和目标文件夹在同一目录下
+##### 10. reset : 重新初始化终端/清屏
+##### 11. clear : 清屏
+##### 12. history : 查看命令历史
+##### 13. help : 帮助
+##### 14. exit : 退出
+##### 15. '#' : 注释
 
 ##### git 配置
-1. git config -l ：查看所有配置项
-2. git config --system --list ： 查看系统config
-3. git config --global  --list ：查看当前用户（global全局）配置
-4. git config --local  --list ： 查看当前仓库配置信息
-5. 提交之前的配置标识，标识是谁提交的
-   git config --global user.name "zhangguo"
- 　git config --global user.email "zhangguo@qq.com"
+##### 1. git config -l ：查看所有配置项
+##### 2. git config --system --list ： 查看系统config
+##### 3. git config --global  --list ：查看当前用户（global全局）配置
+##### 4. git config --local  --list ： 查看当前仓库配置信息
+##### 5. 提交之前的配置标识，标识是谁提交的
+```
+git config --global user.name "zhangguo"
+git config --global user.email "zhangguo@qq.com"
+```
 
-6. 非全局配置：
-   git config user.name "zhangguo"
-   git config user.email "zhangguo@qq.com"
-                
-7. 删除配置项:
-  git config [--local || --global || --system] --unset section.key
-
+##### 6. 非全局配置：
+```
+git config user.name "zhangguo"
+git config user.email "zhangguo@qq.com"
+```             
+##### 7. 删除配置项:
+```
+git config [--local || --global || --system] --unset section.key
+```
 ##### git 工作区域划分
 ##### 1. 工作区（本地新建的文件） ----git add(添加到)----->>  暂存区（.git目录下） ----git commit(提交到)------->>  本地仓库（.git目录下）
 
@@ -59,12 +63,10 @@
 ##### 点击new ssh key
 ##### 将 id_rsa.pub 文件中的密匙复制进去
 ##### 填坑：在mac下由于这个文件夹是隐藏的所用看不到，我们可以 
-
- ```
+```
  cd ~/.ssh             //进入这个文件
  more id_rsa.pub       //显示这个文件的密匙内容
- ```
-
+```
 ##### git 团队
 ##### 1. leader上传代码到github:参考上一个
 ##### 2. 保存代码的仓库 ---> settings ----> collaborator ----> 填写邀请者的 github 账号 -----> 进行邀请
